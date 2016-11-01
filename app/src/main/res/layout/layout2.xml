@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoperro"
+    tools:context="com.example.victor.ejercicio12.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:background="#80FF0000"
+        android:text="ROJO"
+        android:id="@+id/tvRojo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:background="#80FF8000"
+        android:text="NARANJA"
+        android:id="@+id/tvNaranja"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:background="#80FFFF00"
+        android:text="AMARILLO"
+        android:id="@+id/tvAmarillo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:background="#802EFE2E"
+        android:text="VERDE"
+        android:id="@+id/tvVerde"
+        android:layout_alignTop="@+id/tvAzul"
+        android:layout_toLeftOf="@+id/tvNaranja"
+        android:layout_toStartOf="@+id/tvNaranja" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:background="#80BF00FF"
+        android:text="VIOLETA"
+        android:id="@+id/tvVioleta"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tvNaranja"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:background="#800080FF"
+        android:text="AZUL"
+        android:id="@+id/tvAzul"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8sp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#80FE2EF7"
+        android:text="ROSA"
+        android:id="@+id/tvRosa"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
